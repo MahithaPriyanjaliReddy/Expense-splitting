@@ -1,0 +1,79 @@
+.login-wrapper {
+  padding: 80px 20px;
+  background: #000000; /* Black background */
+  min-height: 100vh;
+  text-align: center;
+  color: white;
+}
+
+.login-wrapper h1 {
+  font-size: 3rem;
+  color: #00bcd4;
+  margin-bottom: 10px;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 40px 30px;
+  border-radius: 15px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.login-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-card input {
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: none;
+  background: #222;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.login-card input::placeholder {
+  color: #aaa;
+}
+
+.error-message {
+  color: #ff4d4d;
+  background: rgba(255, 77, 77, 0.1);
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+  min-height: 24px; /* Reserve space to prevent layout shift */
+  transition: all 0.3s ease;
+}
+
+.login-card button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #00bcd4;
+  color: #000;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-card button:hover {
+  background: #80deea;
+}

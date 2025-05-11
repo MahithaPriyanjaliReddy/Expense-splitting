@@ -1,0 +1,78 @@
+.contact-wrapper {
+  text-align: center;
+  padding: 2rem;
+  color: white;
+}
+
+.contact-wrapper h1 {
+  color: #00eaff;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-wrapper .intro-text {
+  margin-bottom: 3rem;
+  font-size: 1.2rem;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.contact-card {
+  background-color: #111;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 234, 255, 0.2);
+}
+
+.contact-card h2 {
+  color: #00eaff;
+  margin-bottom: 0.8rem;
+}
+
+.contact-card p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.stats-section {
+  margin-top: 2rem;
+}
+
+.stats-section h2 {
+  color: #00eaff;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+}
+
+.stat-item {
+  background-color: #111;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 234, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+  color: white;
+  width: 100%;
+  max-width: 300px;
+  justify-content: flex-start;
+}
+
+.stat-item::before {
+  content: "✅";
+  margin-right: 0.5rem;
+  font-size: 1.3rem;
+}
